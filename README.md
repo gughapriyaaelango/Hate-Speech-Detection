@@ -1,0 +1,8 @@
+<b>About</b><br>
+The project focuses on tackling the prevalence of hate speech on social media, aiming to create a robust model for detecting and flagging such harmful content. The project’s holistic approach addresses both technical aspects of model development and the ethical implications, emphasizing the importance of safeguarding user well-being and promoting a positive and inclusive online community.
+<br><br>
+<b>Contribution</b><br>
+Data Loading and Exploration,  Text Pre-processing, Tokenize and Normalize Text, Word Cloud Visualization, Hashtag Analysis, Topic Modelling (LDA), Sentiment Analysis, Vader Sentiment Analysis, Machine Learning Models, Evaluate Model Performance, Ethics, Maintain Fair Model Training
+<br><br>
+<b>Key Findings</b><br>
+From the different explorations of our models, we explored different embedding that behaved differently. Out of the different ones, GloVe embedding worked the best for our scenario. GloVe embedding captures the semantic relationships between words based on their co-occurrence in a large corpus. This semantic richness allows the model to understand the contextual nuances of language, crucial for distinguishing hate speech from non-hateful content on Twitter. This provides a continuous vector representation for each word, enabling the CNN model to grasp the subtle variations in language, enhancing its ability to discern hate speech patterns within the dataset. GloVe embeddings, by capturing the context in which words appear, help resolve polysemy. This is particularly valuable in the context of social media where phrases can have diverse interpretations.
